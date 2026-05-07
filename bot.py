@@ -11,10 +11,12 @@ video = feed.entries[0]
 video_id = video.yt_videoid
 title = video.title
 link = video.link
-thumb = f"https://img.youtube.com/vi/{video_id}/maxresdefault.jpg"
+thumbs = [
+    f"https://img.youtube.com/vi/{video_id}/hqdefault.jpg",
+    f"https://img.youtube.com/vi/{video_id}/mqdefault.jpg",
+]
 
-# fallback si falla
-fallback_thumb = f"https://img.youtube.com/vi/{video_id}/hqdefault.jpg"
+thumb = thumbs[0]
 
 # cargar estado
 try:
