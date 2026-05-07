@@ -33,7 +33,7 @@ if data["last"] != video_id:
                 "title": title,
                 "url": link,
                 "color": 16711680,
-                "image": {"url": thumb}
+                "image": {"url": thumb},
                 "footer": {"text": "By FerfiMoon Stream On Twitch"}
             }
         ]
