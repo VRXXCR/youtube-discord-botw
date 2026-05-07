@@ -2,7 +2,7 @@ import requests
 import feedparser
 import json
 
-WEBHOOK = "https://discord.com/api/webhooks/1501909697614319717/pruP2PZPl-u_q_g3VGF_5gcp8c8HVTNE1PJG2rjoCXgbD64RSr8_GXpKsOjQlZW2hHDC"
+WEBHOOK = "https://discord.com/api/webhooks/1502057047980642324/in6bEGxzJEFN9Qx1w1dRBSO8jJ44Bud6NqM4xpKM-tuWy0xnM9j8hgxPL8sPtmYxIGUz"
 RSS = "https://www.youtube.com/feeds/videos.xml?channel_id=UCk6mA2TlOmx1K3vbUa5DoPQ"
 
 feed = feedparser.parse(RSS)
