@@ -1,8 +1,6 @@
-name: YouTube Bot
+name: YouTube Bot PRO
 
 on:
-  schedule:
-    - cron: "*/1 * * * *"
   workflow_dispatch:
 
 jobs:
