@@ -13,6 +13,9 @@ title = video.title
 link = video.link
 thumb = f"https://img.youtube.com/vi/{video_id}/maxresdefault.jpg"
 
+# fallback si falla
+fallback_thumb = f"https://img.youtube.com/vi/{video_id}/hqdefault.jpg"
+
 # cargar estado
 try:
     with open("state.json", "r") as f:
@@ -24,14 +27,16 @@ except:
 if data["last"] != video_id:
 
     payload = {
-        "content": "# Nuevo Videos Ferfitos @everyone",
+        "content": "# 🌙🚨 Nuevo Videos Ferfitos @everyone",
         "embeds": [
             {
                 "title": title,
                 "url": link,
                 "color": 16711680,
-                "image": {"url": thumb},
-                "footer": {"text": "YouTube Bot PRO • Auto Detect"}
+                "image": {
+    "url": thumb
+}
+                "footer": {"text": "By FerfiMoon Stream On Twitch"}
             }
         ]
     }
