@@ -34,7 +34,7 @@ def revisar_youtube():
 
                 if data["last"] != video_id:
                     payload = {
-                        "content": "# 🌙🚨 Nuevo Video de Ferfi @everyone",
+                        "content": "# 🌙🚨-Nuevo video disponible ferfitos vayan a verlo-🌙🚨                             @everyone",
                         "embeds": [{
                             "title": video.title,
                             "url": video.link,
