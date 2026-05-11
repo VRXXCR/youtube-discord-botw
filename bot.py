@@ -52,7 +52,7 @@ def revisar_youtube():
                     print(f"¡NUEVO VIDEO DETECTADO!: {video.title}")
                     
                     payload = {
-                        "content": "# 🌙🚨 Nuevo Video de Ferfi @everyone",
+                        "content": "# 🌙🚨 NUEVO VIDEO EN YOUTUBE 🚨🌙 @everyone",
                         "embeds": [{
                             "title": video.title,
                             "url": video.link,
